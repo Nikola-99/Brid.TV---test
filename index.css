@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.parentContainer {
+    background: gray;
+    justify-content: center;
+}
+
+.resultContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.word {
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    padding: 10px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.bravo {
+    text-align: center;
+    font-size: 100px;
+}
+
+.buttonRepeat {
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+.letterButton {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
